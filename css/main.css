@@ -46,6 +46,7 @@ body {
   border-radius: 50%;
   background-color: hsla(217, 12%, 63%, 0.28);
   color: hsl(216, 12%, 54%);
+  font-weight: 700;
 }
 
 .icon {
