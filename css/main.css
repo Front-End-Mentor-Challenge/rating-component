@@ -52,6 +52,7 @@ body {
   box-sizing: border-box;
 }
 .container .row {
+  gap: 1em;
   padding: 2em;
   /*  width: 36% !important;
    padding: 2em 0.5em 2em 3em; */
