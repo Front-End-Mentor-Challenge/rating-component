@@ -1,0 +1,37 @@
+body{
+  font-size: 0.9375rem;
+    min-height: 100vh;
+   
+}
+h1,h2,h3,p{
+    padding: 0;
+    margin: 0;
+}
+.main_container_thankyou{
+    background: linear-gradient(187deg, #252d37 10% 10%, #1b2127 35% 35%)
+    ;
+    margin: 0em 1.5em;
+    border: 0;
+    border-radius: 10px;
+    padding: 2em 0.5em;
+    display: grid;
+    gap: 1.5em;
+    place-items: center;
+    text-align: center;
+    max-width:20rem;
+    .rating_given{
+        color: hsl(25, 97%, 53%);
+        padding:0.35em 1em;
+        background-color: hsla(217, 12%, 63%, 0.162);
+        border-radius: 20vw;
+    }
+    .content{
+        p{
+            color: hsl(216, 5%, 58%);
+        }
+        h2{
+            color: hsl(0, 0%, 100%);
+            font-weight: 700;
+        }
+    }
+}
